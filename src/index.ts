@@ -1,4 +1,4 @@
-console.log("hello");
+console.log("hello ");
 
 //https://www.section.io/engineering-education/build-a-graphql-server-using-nodejs/
 //https://blog.logrocket.com/creating-scalable-graphql-api-mysql-apollo-node/
