@@ -1,3 +1,5 @@
+//import Sequalize from "./config/db";
+
 console.log("hello ");
 
 //https://www.section.io/engineering-education/build-a-graphql-server-using-nodejs/
