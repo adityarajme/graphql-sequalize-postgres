@@ -86,10 +86,12 @@ web_modules/
 # Next.js build output
 .next
 out
+build
 
 # Nuxt.js build / generate output
 .nuxt
 dist
+package-lock.json
 
 # Gatsby files
 .cache/

@@ -1,6 +1,3 @@
-//import Sequalize from "./config/db";
-
-console.log("hello ");
 
 //https://www.section.io/engineering-education/build-a-graphql-server-using-nodejs/
 //https://blog.logrocket.com/creating-scalable-graphql-api-mysql-apollo-node/
@@ -8,11 +5,13 @@ console.log("hello ");
 //https://www.freecodecamp.org/news/how-to-use-typescript-with-graphql/
 // Construct a schema, using GraphQL schema language
 
-/*
+//import 
 
 var express = require('express');
 var { graphqlHTTP } = require('express-graphql');
 var { buildSchema } = require('graphql');
+
+//console.log("console test");
 
 var schema = buildSchema(`
   type Query {
@@ -33,6 +32,5 @@ app.use('/graphql', graphqlHTTP({
   rootValue: root,
   graphiql: true,
 }));
-app.listen(4000);
-console.log('Running a GraphQL API server at http://localhost:4000/graphql');
-*/
+
+app.listen(4000, () => console.log('Running a GraphQL API server at http://localhost:4000/graphql'));
